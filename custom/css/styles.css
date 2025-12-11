@@ -1,0 +1,271 @@
+@charset "UTF-8"; 
+
+* {
+  box-sizing: border-box; 
+  margin: 0; 
+  padding: 0; 
+}
+
+body {
+  background: #eee; 
+  font-family: "Inter", sans-serif; 
+  font-size: 16px; 
+  line-height: 24px; 
+  color: #000; 
+ 
+}
+
+
+header {
+  width: 100%; 
+  padding: 20px 0; 
+  background: rgb(248, 96, 96); 
+}
+
+.header-inner {
+  width: 1000px; 
+  margin: 0 auto; 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+.logo {
+  font-family: "Pacifico", cursive; 
+  font-size: 24px; 
+  font-weight: normal;
+  color: #000; 
+  text-decoration: none; 
+}
+
+nav {
+  display: flex; 
+  gap: 40px; 
+  align-items: center; 
+}
+
+nav a {
+  font-size: 16px; 
+  font-weight: normal;
+  color: #000; 
+  transition: opacity .3s; 
+}
+
+nav a:hover {
+  opacity: .7; 
+  text-decoration: none; 
+}
+
+#main-visual {
+  width: 100%;
+  padding: 80px 0; 
+  background-color: rgb(52, 121, 52); 
+}
+
+#main-visual .inner {
+  width: 1200px;
+  margin: 0 auto; 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  gap: 40px; 
+}
+
+#main-visual .text {
+  display: flex; 
+  flex-direction: column; 
+  gap: 20px; 
+  width: 300px; 
+}
+
+#main-visual .logo {
+  font-family: "Pacifico", cursive; 
+  font-size: 80px;
+  font-weight: normal; 
+  line-height: normal; 
+  color: #000;
+}
+
+#main-visual p {
+  font-size: 16px; 
+  font-weight: normal;
+  line-height: 24px; 
+  color: #000;
+}
+
+
+#main-visual img {
+  width: 800px; 
+  height: 600px; 
+  background-color: #ccc; 
+  object-fit: cover; 
+}
+
+
+section {
+  width: 100%;
+  padding: 80px 0;
+}
+
+.sec-heading {
+  font-size: 32px;
+  font-weight: bold; 
+  line-height: normal; 
+  color: #000;
+  margin-bottom: 40px; 
+}
+
+
+#sec-1 {
+  background-color:rgb(248, 96, 96); 
+}
+
+#sec-1 .inner {
+  width: 1000px;  
+  display: flex; 
+  gap: 40px;
+  justify-content: space-between; 
+  flex-wrap: wrap; 
+}
+
+#sec-1 .sec-heading {
+  width: 100%; 
+  margin-bottom: 60px; 
+}
+
+#sec-1 .text {
+  width: 550px; 
+  display: flex; 
+  flex-direction: column; 
+  gap: 40px; 
+}
+
+#sec-1 .text p {
+  font-size: 16px; 
+  font-weight: normal;
+  line-height: 24px;
+  color: #000;
+}
+
+#sec-1 img {
+  width: 400px; 
+  height: 533px;
+  background-color: #ccc;
+  object-fit: cover; 
+}
+
+
+#sec-2 {
+  background-color: rgb(52, 121, 52); 
+  position: relative; 
+}
+
+#sec-2 .inner {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative; 
+}
+
+#sec-2 p {
+  width: 500px; 
+  margin-bottom: 20px; 
+  font-size: 16px; 
+  font-weight: normal; 
+  line-height: 24px;
+  color: #000;
+}
+
+#sec-2 img {
+  width: 100%;
+  height: 400px;
+  background-color: #ccc;
+  object-fit: cover; 
+  margin-bottom: 20px;
+}
+
+#sec-2 .sec-heading {
+  position: absolute; 
+  top: .25em;
+  right: -1em; 
+  font-size: 64px;
+  font-weight: bold; 
+  line-height: normal; 
+  color: #000; 
+  white-space: nowrap; 
+}
+
+
+#sec-3 {
+  background-color:rgb(248, 96, 96); 
+}
+
+#sec-3 .inner {
+  width: 1000px; 
+  margin: 0 auto; 
+  display: flex; 
+  gap: 40px; 
+  justify-content: space-between; 
+  flex-wrap: wrap; 
+}
+
+#sec-3 .sec-heading {
+  width: 100%; 
+  margin-bottom: 60px; 
+  text-align: center; 
+}
+
+#sec-3 figure {
+  width: 200px; 
+  display: flex; 
+  flex-direction: column; 
+  gap: 20px; 
+}
+
+#sec-3 figure img {
+  width: 200px; 
+  height: 200px; 
+  background-color: #ccc; 
+  object-fit: cover; 
+}
+
+#sec-3 figcaption {
+  font-size: 16px; 
+  font-weight: normal; 
+  line-height: 24px; 
+  color: #000; 
+   
+}
+
+
+footer {
+  width: 100%; 
+  padding: 20px 0; 
+  background-color: rgb(52, 121, 52); 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  gap: 20px; 
+  text-align: center; 
+}
+
+footer .logo {
+  font-family: "Pacifico", cursive; 
+  font-size: 40px; 
+  font-weight: normal;
+  line-height: normal; 
+  color: #fff; /
+}
+
+.copyright {
+  font-size: 14px; 
+  font-weight: normal; 
+  line-height: normal; 
+  color: #fff; 
+}
+
+
+
+/* .main-visual img {
+  width: 100%;
+} */
